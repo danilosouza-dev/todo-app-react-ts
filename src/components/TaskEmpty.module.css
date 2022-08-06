@@ -1,0 +1,21 @@
+.taskEmpty {
+  color: var(--gray-300);
+  line-height: 1.4rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-top: 0.0625rem solid var(--gray-400);
+  border-radius: 8px;
+}
+
+.taskEmpty img {
+  width: 3.5rem;
+  margin: 4rem 0 1rem;
+}
+
+/* .taskEmpty img, strong, span {
+  display: block;
+} */
